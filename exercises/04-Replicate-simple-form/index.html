@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>4Geeks Academy</title>
-</head>
-<body>
-<form>
-<!-- your code here -->
-</form>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
+
+	<body>
+		<form>
+			<!-- your code here -->
+			<table border="1">
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>
+						<label for="fname"></label>
+						<input type="text" id="fname" name="fname" /><br />
+					</td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<input type="radio" name="gender " /> <label for="male"> Male</label><br />
+						<input type="radio" name="gender " />
+						<label for="female"> Female</label><br />
+					</td>
+				</tr>
+				<tr>
+					<td>Eye color</td>
+					<td>
+						<label for="cars"></label>
+						<select name="cars" id="cars">
+							<option value="volvo">green</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" /> <label for="vehicle1"> Over 6 feet tall</label><br />
+						<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" /><label for="vehicle1"> Over 200 pounds</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Describe your athletic ability:</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="w3review"></label>
+						<textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center" colspan="2"><button>Enter my information</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>

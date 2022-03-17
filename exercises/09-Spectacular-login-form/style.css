@@ -1,0 +1,35 @@
+body {
+	background-color: darkblue;
+}
+.login {
+	position: absolute;
+	padding: 12% 15% 15% 38%;
+}
+
+input {
+	display: block;
+	padding: 15px;
+	border: 1px solid rgba(143, 63, 63, 0.05);
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 350px;
+	box-sizing: border-box;
+	font-family: montserrat;
+	font-size: 13px;
+	background-color: darkslateblue;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+button {
+	width: 350px;
+	background-color: blue;
+	border: solid rgba(143, 63, 63, 0.05);
+	padding: 15px;
+	border-radius: 3px;
+	color: white;
+}
